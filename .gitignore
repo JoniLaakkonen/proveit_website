@@ -1,0 +1,10 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore local configs
+config.php
+.env
+
+# Ignore uploads if you have any
+uploads/
