@@ -207,7 +207,7 @@ article.header span {
     padding: 2rem;
 }
 
-.download-links a {
+.download-links button {
     padding: 1rem 2rem;
     background-color: #A063E7;
     color: white;
@@ -215,6 +215,7 @@ article.header span {
     margin-bottom: 1rem;
     font-size: x-large;
     font-weight: bold;
+    cursor: pointer;
 }
 
 
@@ -320,7 +321,7 @@ footer {
 
     .features {
         max-width: 600px;
-        margin: auto;
+        margin: 0 auto 2rem;
     }
 
 }

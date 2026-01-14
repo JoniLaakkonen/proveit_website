@@ -72,5 +72,16 @@ if (termsButton && policiesButton && terms && policies) {
     });
 }
 
+const downloadButtons = document.querySelectorAll('.download-link');
+
+function showAlert() {
+    downloadButtons.forEach(button => {
+        button.addEventListener('click', event => {
+            event.preventDefault();
+            alert('ProveIt coming to App Store and Play Store soon. Please be patient.');
+        });
+    });
+}
 // Initial state: both visible
 showDefault();
+

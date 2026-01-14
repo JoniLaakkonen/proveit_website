@@ -34,12 +34,12 @@ include __DIR__ . "/partials/navbar.php";
         </div>
     </div>
     <div class="download-links">
-        <a href="download-ios">
+        <button type="button" class="download-link">
             Download for iOS
-        </a>
-        <a href="download-android">
+        </button>
+        <button type="button" class="download-link">
             Download for Android
-        </a>
+        </button>
     </div>
 </main>
 <?php

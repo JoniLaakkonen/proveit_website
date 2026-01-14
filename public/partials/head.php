@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="description" content="Website for ProveIt Application">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <link rel="stylesheet" href="/styles.css?v=<?= filemtime($_SERVER['DOCUMENT_ROOT'] . '/styles.css') ?>">
     <script src="https://kit.fontawesome.com/c4d9db6500.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
